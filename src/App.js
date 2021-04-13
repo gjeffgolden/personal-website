@@ -6,15 +6,19 @@ import About from './pages/About';
 import Blogs from './pages/Blogs';
 import Projects from './pages/Projects';
 import FunFacts from './pages/FunFacts';
+import Home from './pages/Home';
 import Background from './assets/personal-site-hero.jpg';
 
 function App() {
 
   return (
     <Router>
-      <div className="App" style={{height: '100vh', backgroundImage: `url(${Background})`}}>
+      <div className="App" style={{height: '100vh', minHeight: '725px', backgroundImage: `url(${Background})`}}>
         <Header />
         <Switch>
+          <Route exact path="/">
+            <Home />
+          </Route>
           <Route path="/about">
             <About />
           </Route>
