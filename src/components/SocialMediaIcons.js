@@ -7,7 +7,7 @@ import Twitter from '../assets/icons/twitter-icon.jpg'
 
 export default function SocialMediaIcons() {
     return (
-        <Container maxWidth="sm" disableGutters={true} style={{display: 'flex', flexFlow: 'row'}}>
+        <Container maxWidth="sm" disableGutters={true} style={{display: 'flex', flexFlow: 'row', justifyContent: 'center'}}>
             <Link href="https://www.linkedin.com/in/gjeffgolden/" target="_blank">
                 <Avatar alt="LinkedIn Icon" src={LinkedIn}/>
             </Link>
