@@ -13,23 +13,23 @@ export default function About() {
             style={{height: "60%", width: "80%", minHeight: 'fit-content', backgroundColor: "rgb(0, 0, 0, .1", marginTop: '3rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}
         >
             <Container maxWidth="lg" style={{textAlign: "left", height: "fit-content", display: 'flex', flexFlow: 'column'}}>
-                <Typography variant="h1" gutterBottom={true}>Hi. I'm Jeff.</Typography>
+                <Typography variant="h1" gutterBottom={true} style={{alignSelf: 'center'}}>Hi. I'm Jeff.</Typography>
                 <Container maxWidth="lg" disableGutters={true} style={{backgroundColor: "rgb(0, 0, 0, .6", paddingLeft: "1rem"}}>
                     <Typography gutterBottom={true} variant="h5" style={{color: "white"}}>
                         <DoneAllIcon style={{marginRight: "1rem", fontSize: '3rem'}} />   
-                        React.js, Redux.js, JavaScript, TypeScript, Vue.js, Ruby on Rails, Django, GitHub, Firebase
+                        React, Redux, JavaScript, TypeScript, Vue, Rails, Django, GitHub, Firebase
                     </Typography>
                     <Typography gutterBottom={true} variant="h5" style={{color: "white"}}>
                         <EmojiPeopleIcon style={{marginRight: "1rem", fontSize: "3rem"}} />   
-                        Proven professional, teammate and leader across multiple industries
+                        Proven teammate and leader across multiple industries
                     </Typography>
                     <Typography gutterBottom={true} variant="h5" style={{color: "white"}}>
                         <SearchIcon style={{marginRight: "1rem", fontSize: "3rem"}} />   
-                        Former writer and editor with a passion for clean, readable, typo-free code
+                        Professional writer and editor with an eye for clean, readable, typo-free code
                     </Typography>
                     <Typography gutterBottom={true} variant="h5" style={{color: "white"}}>
                         <WebIcon style={{marginRight: "1rem", fontSize: "3rem"}} />   
-                        Digital marketing expert with web design and content management experience
+                        Digital marketing expert with a decade of content management experience
                     </Typography>
                     <Typography gutterBottom={true} variant="h5" style={{color: "white"}}>
                         <FilterHdrIcon style={{marginRight: "1rem", fontSize: "3rem"}} />   
