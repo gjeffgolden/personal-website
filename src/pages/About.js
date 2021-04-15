@@ -11,7 +11,7 @@ export default function About() {
         <Container 
             id="content-container"
             maxWidth='xl' 
-            style={{height: "70vh", width: "80vw", minHeight: 'fit-content', backgroundColor: "rgb(0, 0, 0, .1", marginTop: '3rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}
+            style={{height: "70vh", width: "80vw", backgroundColor: "rgb(0, 0, 0, .1", marginTop: '3rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}
         >
             <Container maxWidth="lg" style={{textAlign: "left", height: "fit-content", display: 'flex', flexFlow: 'column'}}>
                 <Typography className="name-greeting" variant="h1" gutterBottom={true} style={{alignSelf: 'center'}}>Hi. I'm Jeff.</Typography>

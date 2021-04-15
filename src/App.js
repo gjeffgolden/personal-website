@@ -13,7 +13,7 @@ function App() {
 
   return (
     <Router>
-      <div className="App" style={{height: '100vh', minHeight: '725px', backgroundImage: `url(${Background})`}}>
+      <div className="App" style={{height: '100vh', minHeight: "44rem", width: '100vw', backgroundImage: `url(${Background})`}}>
         <Header />
         <Switch>
           <Route exact path="/">
