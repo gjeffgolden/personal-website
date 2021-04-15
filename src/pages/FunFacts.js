@@ -17,7 +17,7 @@ export default function FunFacts() {
         "In addition to the 14ers, I'm climbed Mt. Rainier, Mt. Hood, Mt. Adams, Gannett Peak and more than a hundred 13ers.",
         "I celebrated three years of sobriety in March 2021.",
         "Formula 1 is a newfound obsession, and I regularly wake up at 4-5 a.m. to watch live races.",
-        "Along with F1, I'm the biggest Carolina Panthers fan you'll ever meet. Existing in Denver after Super Bowl 50 was pure agony.",
+        "I'm the biggest Carolina Panthers fan you'll ever meet. Existing in Denver after Super Bowl 50 was pure agony.",
         "I'm a volunteer trip leader and instructor with the Colorado Mountain Club."
     ]
 
@@ -39,7 +39,7 @@ export default function FunFacts() {
         <Container 
             maxWidth='xl' 
             onClick={handleClick}
-            style={{height: "60%", width: "80%", backgroundColor: "rgb(0, 0, 0, 0.5)", marginTop: '3rem', display: 'flex', flexFlow: "column", alignItems: 'center', justifyContent: 'space-evenly'}}
+            style={{height: "300px", width: "80%", backgroundColor: "rgb(0, 0, 0, 0.5)", marginTop: '5rem', display: 'flex', flexFlow: "column", alignItems: 'center', justifyContent: 'space-evenly'}}
         >
             {displayFacts()}
             <Typography variant="h6" style={{fontFamily: 'Shadows Into Light', color: 'white'}}>Click for more!</Typography>
