@@ -5,3 +5,48 @@
   text-align: center;
 }
 
+@media only screen and (max-width: 1300px) {
+  #content-container {
+    height: 72% !important;
+  }
+  #lifestyle-photo {
+    height: 50% !important;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  #nav-container {
+    flex-flow: column !important;
+  }
+  #contact-card {
+    justify-content: center;
+    margin-bottom: 1rem;
+  }
+  #content-container {
+    height: 32rem !important;
+  }
+  #lifestyle-photo {
+    display: none;
+  }
+  .name-greeting {
+    font-size: 3rem !important;
+  }
+  #list-container h5 {
+    font-size: 1rem !important;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .name-greeting {
+    display: none;
+  }
+  #list-container h5 {
+    font-size: 0.75rem !important;
+  }
+  #headshot {
+    display: none;
+  }
+  .nav-link {
+    font-size: 1rem !important;
+  }
+}

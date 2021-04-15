@@ -6,9 +6,9 @@ import NavLinks from '../components/NavLinks'
 
 export default function Header() {
     return (
-            <Container maxWidth='xl' style={{display: 'flex', flexFlow: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: '2rem'}}>
-                <Container maxWidth="m" style={{display: 'flex', flexFlow: 'row', alignItems: 'flex-end'}}>
-                    <Link href="/">
+            <Container id="nav-container" maxWidth='xl' style={{display: 'flex', flexFlow: 'row', justifyContent: 'space-between', alignItems: 'center', paddingTop: '2rem'}}>
+                <Container id="contact-card" maxWidth="m" style={{display: 'flex', flexFlow: 'row', alignItems: 'flex-end'}}>
+                    <Link id="headshot" href="/">
                         <Avatar alt="Jeff Golden" src={Headshot} style={{height: '10rem', width: '10rem', border: '4px #035e06 solid'}} />
                     </Link>
                     <Container maxWidth="xs" style={{display: 'flex', flexFlow: 'column', margin: '0', width: '14.5rem', alignItems: 'center'}}>

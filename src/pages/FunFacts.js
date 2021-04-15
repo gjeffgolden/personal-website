@@ -6,11 +6,15 @@ export default function FunFacts() {
 
     const [currentFactIndex, setCurrentFactIndex] = useState(0)
 
-    const facts = ["Testing"]
+    const facts = [
+        "Testing", 
+        "Testing2", 
+        "Testing3"
+    ]
 
     const nextFact = () => {
         let nextIndex = currentFactIndex + 1 === facts.length ? 0 : currentFactIndex + 1
-        setCurrentFactIndex({nextIndex})
+        setCurrentFactIndex(nextIndex)
     }
 
     const displayFacts = () => {
@@ -19,7 +23,7 @@ export default function FunFacts() {
     }
 
     const handleClick = () => {
-        console.log("hit")
+        nextFact()
     }
 
     return (

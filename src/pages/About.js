@@ -9,12 +9,13 @@ import FilterHdrIcon from '@material-ui/icons/FilterHdr';
 export default function About() {
     return (
         <Container 
+            id="content-container"
             maxWidth='xl' 
-            style={{height: "60%", width: "80%", minHeight: 'fit-content', backgroundColor: "rgb(0, 0, 0, .1", marginTop: '3rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}
+            style={{height: "70vh", width: "80vw", minHeight: 'fit-content', backgroundColor: "rgb(0, 0, 0, .1", marginTop: '3rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}
         >
             <Container maxWidth="lg" style={{textAlign: "left", height: "fit-content", display: 'flex', flexFlow: 'column'}}>
-                <Typography variant="h1" gutterBottom={true} style={{alignSelf: 'center'}}>Hi. I'm Jeff.</Typography>
-                <Container maxWidth="lg" disableGutters={true} style={{backgroundColor: "rgb(0, 0, 0, .6", paddingLeft: "1rem"}}>
+                <Typography className="name-greeting" variant="h1" gutterBottom={true} style={{alignSelf: 'center'}}>Hi. I'm Jeff.</Typography>
+                <Container id="list-container" maxWidth="lg" disableGutters={true} style={{backgroundColor: "rgb(0, 0, 0, .6", paddingLeft: "1rem"}}>
                     <Typography gutterBottom={true} variant="h5" style={{color: "white"}}>
                         <DoneAllIcon style={{marginRight: "1rem", fontSize: '3rem'}} />   
                         React, Redux, JavaScript, TypeScript, Vue, Rails, Django, GitHub, Firebase
@@ -37,7 +38,7 @@ export default function About() {
                     </Typography>
                 </Container>
             </Container>
-            <Card style={{height: "90%", width: "40%"}}>
+            <Card id="lifestyle-photo" style={{height: "90%", width: "40%"}}>
                 <CardMedia
                     component="img"
                     alt="Jeff and Zia the dog in Utah"
