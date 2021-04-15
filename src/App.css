@@ -7,10 +7,16 @@
 
 @media only screen and (max-width: 1300px) {
   #content-container {
-    height: 72% !important;
+    height: 60vh !important;
   }
   #lifestyle-photo {
     height: 50% !important;
+  }
+  .name-greeting {
+    font-size: 3rem !important;
+  }
+  #list-container h6 {
+    font-size: 1rem !important;
   }
 }
 
@@ -35,9 +41,6 @@
   .name-greeting {
     font-size: 3rem !important;
   }
-  #list-container h5 {
-    font-size: 1rem !important;
-  }
 }
 
 @media only screen and (max-width: 540px) {
@@ -54,7 +57,7 @@
   .name-greeting {
     display: none;
   }
-  #list-container h5 {
+  #list-container h6 {
     font-size: 0.75rem !important;
   }
   #headshot {
@@ -74,5 +77,11 @@
   }
 }
 
-@media only screen and (min-width: 1360) and (max-width: 1370px) {
+@media only screen and (max-width: 280px) {
+  .nav-link {
+    font-size: 0.85rem !important;
+  }
+}
+
+@media only screen and (min-width: 1900px) {
 }

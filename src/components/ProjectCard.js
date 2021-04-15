@@ -4,7 +4,7 @@ import { Card, CardMedia, CardContent, Typography, CardActions, Button } from '@
 export default function ProjectCard({ title, screenshot, github, description }) {
     return (
         <div>
-            <Card style={{height: '24rem', width: "25rem"}}>
+            <Card style={{height: '24rem', width: "90%"}}>
                 <CardMedia
                     component="img"
                     image={screenshot}
