@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Container } from '@material-ui/core';
 import BlogCard from '../components/BlogCard';
 
 export default function Blogs() {
+
+    const [selectedBlog, setSelectedBlog] = useState({});
+    const [isBlogSelected, setIsBlogSelected] = useState(false);
 
     const blogs = [
         {
