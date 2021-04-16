@@ -35,7 +35,15 @@ export default function Blogs() {
     ]
 
     const displayBlogs = () => {
-        return blogs.map(blog => <BlogCard key={blog.id} headline={blog.headline} teaser={blog.teaser} wordpress={blog.wordpress} /> )
+        return blogs.map(blog => 
+            <BlogCard 
+                key={blog.id} 
+                headline={blog.headline} 
+                teaser={blog.teaser} 
+                wordpress={blog.wordpress} 
+                setSelectedBlog={setSelectedBlog} 
+            /> 
+        )
     }
 
     return (
@@ -43,7 +51,7 @@ export default function Blogs() {
             maxWidth='xl' 
             style={{height: "350px", width: "80%", backgroundColor: "rgb(0, 0, 0, .3", marginTop: '5rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-between', alignItems: 'center', borderRadius: '6px'}}
         >
-            {displayBlogs()}
+            {isBlogSelected ? null : displayBlogs()}
         </Container>
     )
 }
