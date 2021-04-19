@@ -12,13 +12,13 @@ export default function Blogs() {
             id: 1,
             headline: "Forking My Life",
             teaser: 'Why transition from a successful digital marketing career to coding?',
-            wordpress: "https://iceandtrail.com/2020/12/16/forking-my-life/"
+            wordpress: "https://gjeffgolden.medium.com/forking-my-life-49c97583c9ca"
         },
         {
             id: 2,
             headline: "A Beginner's Guide to JavaScript Event Delegation",
             teaser: 'Stop! Propagate, and listen.',
-            wordpress: "https://iceandtrail.com/2021/02/23/a-minimalist-guide-to-javascript-event-delegation/"
+            wordpress: "https://gjeffgolden.medium.com/a-beginners-guide-to-javascript-event-delegation-85545d943a23"
         },
         {
             id: 3,
