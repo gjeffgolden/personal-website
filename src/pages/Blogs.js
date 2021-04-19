@@ -49,7 +49,6 @@ export default function Blogs() {
             style={{
                 height: "24rem", 
                 width: "70%", 
-                backgroundColor: "rgb(0, 0, 0, .3", 
                 marginTop: '5rem', 
                 display: 'flex', 
                 flexFlow: 'column', 
