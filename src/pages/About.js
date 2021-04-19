@@ -11,11 +11,11 @@ export default function About() {
         <Container 
             id="content-container"
             maxWidth='xl' 
-            style={{height: "60vh", width: "80vw", backgroundColor: "rgb(0, 0, 0, .1", marginTop: '3rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-evenly', alignItems: 'center'}}
+            style={{height: "60vh", width: "80vw", marginTop: '3rem', display: 'flex', flexFlow: 'column', justifyContent: 'space-evenly', alignItems: 'center'}}
         >
-            <Container maxWidth="lg" style={{textAlign: "left", height: '100%', display: 'flex', flexFlow: 'column'}}>
-                <Typography className="name-greeting" variant="h2" gutterBottom={true} style={{alignSelf: 'center'}}>Hi. I'm Jeff.</Typography>
-                <Container id="list-container" maxWidth="lg" disableGutters={true} style={{display: 'flex', flexFlow: 'column', backgroundColor: "rgb(0, 0, 0, .6", paddingLeft: "1rem", height: 'fit-content'}}>
+            <Typography className="name-greeting" variant="h1" style={{alignSelf: 'center'}}>Hi. I'm Jeff.</Typography>
+            <Container maxWidth="xl" style={{textAlign: "left", height: '80%', display: 'flex', flexFlow: 'row', alignItems: "center", justifyContent: 'space-evenly'}}>
+                <Container id="list-container" maxWidth="lg" disableGutters={true} style={{display: 'flex', flexFlow: 'column', backgroundColor: "rgb(0, 0, 0, .6", paddingLeft: "0.5rem", height: 'fit-content', width: "80%"}}>
                     <Typography gutterBottom={true} variant="h6" style={{color: "white"}}>
                         <DoneAllIcon style={{marginRight: "1rem", fontSize: '3rem'}} />   
                         React, Redux, JavaScript, TypeScript, Vue, Rails, Django, GitHub, Firebase
@@ -37,17 +37,17 @@ export default function About() {
                         Avid mountaineer, backpacker, conservationist and 14er Finisher
                     </Typography>
                 </Container>
+                <Card id="lifestyle-photo" style={{height: "90%", width: "30%", marginLeft: '1rem'}}>
+                    <CardMedia
+                        component="img"
+                        alt="Jeff and Zia the dog in Utah"
+                        height="fill"
+                        image="https://firebasestorage.googleapis.com/v0/b/gear-closet-photos.appspot.com/o/images%2FIMG_2049.jpg?alt=media&token=e03c89f0-cefd-4055-930a-d42e3e38d642"
+                        title="Jeff and Zia in Mary Jane Canyon"
+                        style={{height: "100%", width: '100%'}}
+                    />
+                </Card>
             </Container>
-            <Card id="lifestyle-photo" style={{height: "70%", width: "40%"}}>
-                <CardMedia
-                    component="img"
-                    alt="Jeff and Zia the dog in Utah"
-                    height="fill"
-                    image="https://firebasestorage.googleapis.com/v0/b/gear-closet-photos.appspot.com/o/images%2FIMG_2049.jpg?alt=media&token=e03c89f0-cefd-4055-930a-d42e3e38d642"
-                    title="Jeff and Zia in Mary Jane Canyon"
-                    style={{height: "100%", width: '100%'}}
-                />
-            </Card>
         </Container>
     )
 }
