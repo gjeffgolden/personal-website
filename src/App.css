@@ -14,7 +14,7 @@
 }
 
 .nav-link:hover {
-  color: #035e06;
+  color: firebrick;
 }
 
 .social-icon:hover {
@@ -67,6 +67,7 @@
 @media only screen and (max-width: 540px) {
   #quote-container {
     text-align: center;
+    padding-top: 14rem;
   }
   #quote {
     font-size: 1.25rem !important;
@@ -90,6 +91,9 @@
 }
 
 @media only screen and (max-width: 340px) {
+  .main-container {
+    height: 40vh !important;
+  }
   #quote-container {
     width: 10rem !important;
   }
