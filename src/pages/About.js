@@ -5,6 +5,7 @@ import EmojiPeopleIcon from '@material-ui/icons/EmojiPeople';
 import SearchIcon from '@material-ui/icons/Search';
 import WebIcon from '@material-ui/icons/Web';
 import FilterHdrIcon from '@material-ui/icons/FilterHdr';
+import LifestylePhoto from '../assets/jeff-and-zia.jpg'
 
 export default function About() {
     return (
@@ -13,7 +14,7 @@ export default function About() {
             maxWidth='xl' 
             style={{height: "60vh", width: "80vw", marginTop: '3rem', display: 'flex', flexFlow: 'column', justifyContent: 'space-evenly', alignItems: 'center'}}
         >
-            <Typography className="name-greeting" variant="h1" style={{alignSelf: 'center', fontFamily: "Karantina"}}>👋🤘✌</Typography>
+            <Typography className="name-greeting" variant="h1" style={{alignSelf: 'center'}}>👋🤘✌</Typography>
             <Container maxWidth="xl" style={{textAlign: "left", height: '80%', display: 'flex', flexFlow: 'row', alignItems: "center", justifyContent: 'space-evenly'}}>
                 <Container id="list-container" maxWidth="lg" disableGutters={true} style={{display: 'flex', flexFlow: 'column', backgroundColor: "rgb(0, 0, 0, 0.8", paddingLeft: "0.5rem", height: 'fit-content', width: "80%", borderRadius: '6px'}}>
                     <Typography gutterBottom={true} variant="h6" style={{color: "white"}}>
@@ -42,7 +43,7 @@ export default function About() {
                         component="img"
                         alt="Jeff and Zia the dog in Utah"
                         height="fill"
-                        image="https://firebasestorage.googleapis.com/v0/b/gear-closet-photos.appspot.com/o/images%2FIMG_2049.jpg?alt=media&token=e03c89f0-cefd-4055-930a-d42e3e38d642"
+                        image={LifestylePhoto}
                         title="Jeff and Zia in Mary Jane Canyon"
                         style={{height: "100%", width: '100%'}}
                     />
