@@ -41,7 +41,7 @@ export default function FunFacts() {
         <Container 
             maxWidth='xl' 
             onClick={handleClick}
-            style={{height: "300px", width: "80%", backgroundColor: "rgb(0, 0, 0, 0.5)", marginTop: '5rem', display: 'flex', flexFlow: "column", alignItems: 'center', justifyContent: 'space-evenly', borderRadius: "6px"}}
+            style={{height: "300px", width: "80%", backgroundColor: "rgb(0, 0, 0, 0.8)", marginTop: '5rem', display: 'flex', flexFlow: "column", alignItems: 'center', justifyContent: 'space-evenly', borderRadius: "6px"}}
         >
             {displayFacts()}
             <Typography variant="h6" style={{fontFamily: 'Shadows Into Light', color: 'white'}}>Click for more!</Typography>

@@ -13,9 +13,9 @@ export default function About() {
             maxWidth='xl' 
             style={{height: "60vh", width: "80vw", marginTop: '3rem', display: 'flex', flexFlow: 'column', justifyContent: 'space-evenly', alignItems: 'center'}}
         >
-            <Typography className="name-greeting" variant="h1" style={{alignSelf: 'center'}}>Hi. I'm Jeff.</Typography>
+            <Typography className="name-greeting" variant="h1" style={{alignSelf: 'center', fontFamily: "Karantina"}}>👋🤘✌</Typography>
             <Container maxWidth="xl" style={{textAlign: "left", height: '80%', display: 'flex', flexFlow: 'row', alignItems: "center", justifyContent: 'space-evenly'}}>
-                <Container id="list-container" maxWidth="lg" disableGutters={true} style={{display: 'flex', flexFlow: 'column', backgroundColor: "rgb(0, 0, 0, .6", paddingLeft: "0.5rem", height: 'fit-content', width: "80%"}}>
+                <Container id="list-container" maxWidth="lg" disableGutters={true} style={{display: 'flex', flexFlow: 'column', backgroundColor: "rgb(0, 0, 0, 0.8", paddingLeft: "0.5rem", height: 'fit-content', width: "80%", borderRadius: '6px'}}>
                     <Typography gutterBottom={true} variant="h6" style={{color: "white"}}>
                         <DoneAllIcon style={{marginRight: "1rem", fontSize: '3rem'}} />   
                         React, Redux, JavaScript, TypeScript, Vue, Rails, Django, GitHub, Firebase
@@ -30,7 +30,7 @@ export default function About() {
                     </Typography>
                     <Typography gutterBottom={true} variant="h6" style={{color: "white"}}>
                         <WebIcon style={{marginRight: "1rem", fontSize: "3rem"}} />   
-                        Digital marketing expert with a decade of content management experience
+                        Digital marketing expert with a decade of content-management experience
                     </Typography>
                     <Typography gutterBottom={true} variant="h6" style={{color: "white"}}>
                         <FilterHdrIcon style={{marginRight: "1rem", fontSize: "3rem"}} />   
