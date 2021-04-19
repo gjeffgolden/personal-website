@@ -5,6 +5,27 @@
   text-align: center;
 }
 
+
+
+/* CSS Animations */
+
+.blog-card:hover {
+  background-color: rgb(255, 255, 255, 1.0);
+}
+
+.nav-link:hover {
+  color: #035e06;
+}
+
+.social-icon:hover {
+  width: 2.75rem;
+  height: 2.75rem;
+}
+
+
+
+/* Media Queries */
+
 @media only screen and (max-width: 1300px) {
   #content-container {
     height: 60vh !important;
