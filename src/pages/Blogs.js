@@ -1,11 +1,9 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { Container } from '@material-ui/core';
 import BlogCard from '../components/BlogCard';
 
 export default function Blogs() {
 
-    const [selectedBlog, setSelectedBlog] = useState({});
-    const [isBlogSelected, setIsBlogSelected] = useState(false);
 
     const blogs = [
         {
@@ -40,8 +38,7 @@ export default function Blogs() {
                 key={blog.id} 
                 headline={blog.headline} 
                 teaser={blog.teaser} 
-                wordpress={blog.wordpress} 
-                setSelectedBlog={setSelectedBlog} 
+                wordpress={blog.wordpress}  
             /> 
         )
     }
@@ -49,9 +46,19 @@ export default function Blogs() {
     return (
         <Container 
             maxWidth='xl' 
-            style={{height: "350px", width: "80%", backgroundColor: "rgb(0, 0, 0, .3", marginTop: '5rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-between', alignItems: 'center', borderRadius: '6px'}}
+            style={{
+                height: "24rem", 
+                width: "70%", 
+                backgroundColor: "rgb(0, 0, 0, .3", 
+                marginTop: '5rem', 
+                display: 'flex', 
+                flexFlow: 'column', 
+                justifyContent: 'space-around', 
+                alignItems: 'center', 
+                borderRadius: '6px',
+            }}
         >
-            {isBlogSelected ? null : displayBlogs()}
+            {displayBlogs()}
         </Container>
     )
 }
