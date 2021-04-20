@@ -12,7 +12,7 @@ export default function Home() {
                 <Typography id="quote" style={{fontFamily: 'Shadows Into Light', fontSize: '1.75rem', color: 'white', position: 'relative'}}>
                     “Everything is held together with stories. That is all that is holding us together, stories and compassion.”
                 </Typography>
-                <Typography style={{fontFamily: 'Shadows Into Light', color: 'white'}}>
+                <Typography id="quote-attribution" style={{fontFamily: 'Shadows Into Light', color: 'white'}}>
                     -Barry Lopez
                 </Typography>
             </Container>

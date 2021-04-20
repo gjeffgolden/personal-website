@@ -11,10 +11,14 @@ export default function Header() {
                     <Link id="headshot" href="/">
                         <Avatar alt="Jeff Golden" src={Headshot} style={{height: '10rem', width: '10rem', border: '3px black solid'}} />
                     </Link>
-                    <Container maxWidth="xs" style={{display: 'flex', flexFlow: 'column', margin: '0', width: '14.5rem', alignItems: 'center', height: '10rem'}}>
-                        <Typography variant="h5">G. Jeff Golden</Typography>
-                        <Typography variant="h6" style={{fontFamily: 'Shadows Into Light'}}>Full-Stack Developer</Typography>
-                        <Button 
+                    <Container 
+                        className="contact-info"
+                        maxWidth="xs" 
+                        style={{display: 'flex', flexFlow: 'column', margin: '0', width: '14.5rem', alignItems: 'center', height: '10rem'}}>
+                        <Typography className="contact-name" variant="h5">G. Jeff Golden</Typography>
+                        <Typography className="contact-title" variant="h6" style={{fontFamily: 'Shadows Into Light'}}>Full-Stack Developer</Typography>
+                        <Button
+                            className="contact-button" 
                             href="mailto:codebygolden@gmail.com" 
                             size='small' 
                             variant='contained' 

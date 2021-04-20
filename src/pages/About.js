@@ -10,7 +10,7 @@ export default function About() {
             maxWidth='xl' 
             style={{height: "60vh", width: "80vw", marginTop: '3rem', display: 'flex', flexFlow: 'column', justifyContent: 'space-evenly', alignItems: 'center'}}
         >
-            <Typography className="name-greeting" variant="h1" style={{alignSelf: 'center'}}>👋🤘✌</Typography>
+            <Typography className="name-greeting" gutterBottom={true} variant="h1" style={{alignSelf: 'center'}}>👋🤘✌</Typography>
             <Container maxWidth="xl" style={{textAlign: "left", height: '80%', display: 'flex', flexFlow: 'row', alignItems: "center", justifyContent: 'space-evenly'}}>
                 <SkillList />
                 <Card id="lifestyle-photo" style={{height: "90%", width: "30%", marginLeft: '1rem'}}>
