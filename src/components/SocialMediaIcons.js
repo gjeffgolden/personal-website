@@ -1,9 +1,9 @@
-import React from 'react'
-import { Container, Avatar, Link } from '@material-ui/core'
-import LinkedIn from '../assets/icons/linkedin-icon.jpg'
-import GitHub from '../assets/icons/github-icon.png'
-import Instagram from '../assets/icons/instagram-icon.jpg'
-import Twitter from '../assets/icons/twitter-icon.jpg'
+import React from 'react';
+import { Container, Avatar, Link } from '@material-ui/core';
+import LinkedIn from '../assets/icons/linkedin-icon.jpg';
+import GitHub from '../assets/icons/github-icon.png';
+import Instagram from '../assets/icons/instagram-icon.jpg';
+import Twitter from '../assets/icons/twitter-icon.jpg';
 
 export default function SocialMediaIcons() {
     return (

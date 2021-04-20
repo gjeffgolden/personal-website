@@ -1,9 +1,9 @@
 import React from 'react';
 import { Container } from '@material-ui/core';
 import ProjectCard from '../components/ProjectCard';
-import GearClosetPhoto from '../assets/proj-5.PNG'
-import SingletrackPhoto from '../assets/proj-4.PNG'
-import MySummitsPhoto from '../assets/proj-3.PNG'
+import GearClosetPhoto from '../assets/proj-5.PNG';
+import SingletrackPhoto from '../assets/proj-4.PNG';
+import MySummitsPhoto from '../assets/proj-3.PNG';
 
 export default function Projects() {
 

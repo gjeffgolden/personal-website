@@ -9,8 +9,12 @@ export default function BlogCard({ headline, teaser, wordpress }) {
     }
 
     return (
-            <Link underline="none" href={wordpress} target="_blank" style={{display: 'flex', flexFlow: 'column', alignItems: "center", width: "100%"}}>
-                <Card className="blog-card" onClick={handleClick} style={{display: "flex", height: 'fit-content', width: "60%", backgroundColor: "rgb(255, 255, 255)", minWidth: "42rem", margin: '0.5rem'}}>
+            <Link underline="none" href={wordpress} target="_blank" style={{display: 'flex', flexFlow: 'column', alignItems: "center", width: "60%"}}>
+                <Card 
+                    className="blog-card" 
+                    onClick={handleClick} 
+                    style={{display: "flex", height: 'fit-content', width: "100%", backgroundColor: "rgb(255, 255, 255)", minWidth: "42rem", margin: '0.5rem'}}
+                >
                     <CardContent style={{display: "flex", flexFlow: "row", width: "100%", alignItems: "center"}}>
                         <img src={MediumLogo} alt="Medium.com Logo" style={{width: "3rem"}} />
                         <Container className="blog-details" style={{textAlign: 'left'}}>

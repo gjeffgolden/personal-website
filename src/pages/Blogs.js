@@ -4,7 +4,6 @@ import BlogCard from '../components/BlogCard';
 
 export default function Blogs() {
 
-
     const blogs = [
         {
             id: 1,
@@ -22,13 +21,13 @@ export default function Blogs() {
             id: 3,
             headline: "Refactoring a Class Component to a Functional Component",
             teaser: 'Sink your hooks into this one.',
-            wordpress: "https://iceandtrail.com/2021/03/18/refactoring-a-class-component-to-a-functional-component-in-react-with-hooks/"
+            wordpress: "https://gjeffgolden.medium.com/refactoring-a-class-component-to-a-functional-component-with-hooks-f279e109f630"
         },
         {
             id: 4,
             headline: "Controlled Forms in React",
             teaser: 'Understanding how component state and forms inputs interact.',
-            wordpress: "https://iceandtrail.com/2021/03/30/controlled-forms-in-react/"
+            wordpress: "https://gjeffgolden.medium.com/controlled-forms-in-react-e1d977d39fba"
         }
     ]
 
@@ -50,7 +49,7 @@ export default function Blogs() {
             style={{
                 height: "fit-content", 
                 width: "70%", 
-                marginTop: '5rem', 
+                marginTop: '3rem', 
                 display: 'flex', 
                 flexFlow: 'column', 
                 justifyContent: 'space-around', 

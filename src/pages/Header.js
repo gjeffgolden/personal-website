@@ -14,7 +14,12 @@ export default function Header() {
                     <Container maxWidth="xs" style={{display: 'flex', flexFlow: 'column', margin: '0', width: '14.5rem', alignItems: 'center', height: '10rem'}}>
                         <Typography variant="h5">G. Jeff Golden</Typography>
                         <Typography variant="h6" style={{fontFamily: 'Shadows Into Light'}}>Full-Stack Developer</Typography>
-                        <Button href="mailto:codebygolden@gmail.com" size='small' variant='contained' style={{width: '10rem', marginBottom: '0.5rem', marginTop: '0.5rem', backgroundColor: '#035e06', color: 'white'}}>
+                        <Button 
+                            href="mailto:codebygolden@gmail.com" 
+                            size='small' 
+                            variant='contained' 
+                            style={{width: '10rem', marginBottom: '0.5rem', marginTop: '0.5rem', backgroundColor: '#035e06', color: 'white'}}
+                        >
                             Contact
                         </Button>
                         <SocialMediaIcons />

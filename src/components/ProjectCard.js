@@ -1,5 +1,5 @@
-import React from 'react'
-import { Card, CardMedia, CardContent, Typography, CardActions, Button } from '@material-ui/core'
+import React from 'react';
+import { Card, CardMedia, CardContent, Typography, CardActions, Button } from '@material-ui/core';
 
 export default function ProjectCard({ title, screenshot, github, description }) {
     return (
