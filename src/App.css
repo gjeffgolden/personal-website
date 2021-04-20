@@ -50,6 +50,7 @@
   }
   .main-container {
     margin-left: 0 !important;
+    margin-right: 0 !important;
     height: 55vh !important;
   }
   #content-container {
@@ -100,7 +101,7 @@
 @media only screen and (max-width: 540px) {
   #quote-container {
     text-align: center;
-    padding-top: 14rem;
+    padding-top: 14rem !important;
   }
   #quote {
     font-size: 1.25rem !important;
@@ -108,6 +109,7 @@
   .main-container {
     min-height: auto !important;
     align-items: center;
+    justify-content: flex-start !important;
   }
   #list-container h6 {
     font-size: 0.75rem !important;
@@ -125,10 +127,11 @@
 
 @media only screen and (max-width: 340px) {
   .main-container {
-    height: 40vh !important;
+    height: 60vh !important;
   }
   #quote-container {
-    width: 10rem !important;
+    width: 12rem !important;
+    padding-top: 8rem !important;
   }
   #quote {
     font-size: 1rem !important;
@@ -138,6 +141,9 @@
   }
   .facts-container h2 {
     font-size: 1rem !important;
+  }
+  .nav-link {
+    font-size: 0.75rem !important;
   }
 }
 
