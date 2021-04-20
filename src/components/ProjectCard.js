@@ -15,7 +15,7 @@ export default function ProjectCard({ title, screenshot, github, description }) 
                     <Typography variant="body1">{description}</Typography>
                 </CardContent>
                 <CardActions>
-                    <Button size="medium" color="primary" fullWidth="true" href={github} target="_blank">
+                    <Button size="medium" color="primary" fullWidth={true} href={github} target="_blank">
                         View on GitHub
                     </Button>
                 </CardActions>
