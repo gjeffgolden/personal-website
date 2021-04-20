@@ -46,8 +46,9 @@ export default function Blogs() {
     return (
         <Container 
             maxWidth='xl' 
+            className="blog-container"
             style={{
-                height: "24rem", 
+                height: "fit-content", 
                 width: "70%", 
                 marginTop: '5rem', 
                 display: 'flex', 

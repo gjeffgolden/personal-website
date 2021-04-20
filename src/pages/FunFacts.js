@@ -39,12 +39,23 @@ export default function FunFacts() {
 
     return (
         <Container 
+            className="facts-container"
             maxWidth='xl' 
             onClick={handleClick}
-            style={{height: "300px", width: "80%", backgroundColor: "rgb(0, 0, 0, 0.8)", marginTop: '5rem', display: 'flex', flexFlow: "column", alignItems: 'center', justifyContent: 'space-evenly', borderRadius: "6px"}}
+            style={{
+                height: "fit-content", 
+                width: "70%", 
+                backgroundColor: "rgb(0, 0, 0, 0.8)", 
+                marginTop: '7rem', 
+                display: 'flex', 
+                flexFlow: "column", 
+                alignItems: 'center',  
+                borderRadius: "6px",
+                padding: '1rem'
+            }}
         >
             {displayFacts()}
-            <Typography variant="h6" style={{fontFamily: 'Shadows Into Light', color: 'white'}}>Click for more!</Typography>
+            <Typography variant="h6" style={{fontFamily: 'Shadows Into Light', color: 'white', marginTop: '2rem'}}>Click for more!</Typography>
         </Container>
     )
 }

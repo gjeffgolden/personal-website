@@ -74,9 +74,28 @@
   }
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
   .name-greeting {
     display: none;
+  }
+  .blog-container {
+    margin-top: 1rem !important;
+  }
+  .blog-card {
+    height: fit-content !important;
+    min-width: 250px !important;
+  }
+  .blog-card img {
+    display: none;
+  }
+  .blog-details {
+    text-align: center !important;
+  }
+  .facts-container {
+    margin-top: 1rem !important;
+  }
+  .facts-container h2 {
+    font-size: 2rem !important;
   }
 }
 
@@ -101,6 +120,9 @@
   .nav-link {
     font-size: 1rem !important;
   }
+  .facts-container h2 {
+    font-size: 1.5rem !important;
+  }
 }
 
 @media only screen and (max-width: 340px) {
@@ -115,6 +137,9 @@
   }
   #list-container h6 {
     font-size: 0.65rem !important;
+  }
+  .facts-container h2 {
+    font-size: 1rem !important;
   }
 }
 
