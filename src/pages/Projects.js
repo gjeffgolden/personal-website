@@ -37,8 +37,9 @@ export default function Projects() {
 
     return (
         <Container 
+            className="project-container"
             maxWidth='xl' 
-            style={{height: "400px", width: "80%", marginTop: '5rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-between', alignItems: 'center', borderRadius: '6px'}}
+            style={{height: "fit-content", width: "80%", marginTop: '5rem', display: 'flex', flexFlow: 'row', justifyContent: 'space-between', alignItems: 'center', borderRadius: '6px'}}
         >
             {displayProjects()}
         </Container>
