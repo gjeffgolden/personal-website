@@ -26,7 +26,7 @@ export default function Blogs() {
         {
             id: 4,
             headline: "Controlled Forms in React",
-            teaser: 'Understanding how component state and forms inputs interact.',
+            teaser: 'Understanding how component state and form inputs interact.',
             wordpress: "https://gjeffgolden.medium.com/controlled-forms-in-react-e1d977d39fba"
         }
     ]
