@@ -11,7 +11,7 @@ export default function SkillList() {
         <Container id="list-container" maxWidth="lg" disableGutters={true} style={{display: 'flex', flexFlow: 'column', backgroundColor: "rgb(0, 0, 0, 0.9)", paddingLeft: "0.5rem", height: 'fit-content', width: "80%", borderRadius: '6px'}}>
             <Typography gutterBottom={true} variant="h6" style={{color: "white"}}>
                 <DoneAllIcon style={{marginRight: "1rem", fontSize: '3rem'}} />   
-                React, Redux, JavaScript, TypeScript, Vue, Rails, Django, GitHub, Firebase
+                React.js, JavaScript, TypeScript, Vue.js, Rails, Django, GitHub, CSS/HTML
             </Typography>
             <Typography gutterBottom={true} variant="h6" style={{color: "white"}}>
                 <EmojiPeopleIcon style={{marginRight: "1rem", fontSize: "3rem"}} />   
