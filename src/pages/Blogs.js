@@ -32,6 +32,7 @@ export default function Blogs() {
         {
             id: 5,
             headline: "Responsive Web Design Fundamentals",
+            teaser: "An introduction to rems, ems and media queries.",
             medium: "https://gjeffgolden.medium.com/responsive-design-fundamentals-1fc669636df7"
         }
     ]
