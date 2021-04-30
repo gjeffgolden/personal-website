@@ -43,7 +43,7 @@ export default function Blogs() {
                 key={blog.id} 
                 headline={blog.headline} 
                 teaser={blog.teaser} 
-                wordpress={blog.medium}  
+                medium={blog.medium}  
             /> 
         )
     }
