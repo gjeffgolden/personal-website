@@ -81,6 +81,9 @@
   .facts-container {
     margin-top: 10rem !important;
   }
+  .project-card {
+    height: fit-content !important;
+  }
 }
 
 @media only screen and (max-width: 1300px) {
@@ -95,6 +98,15 @@
   }
   #list-container h6 {
     font-size: 1rem !important;
+  }
+  .project-card {
+    height: 26rem !important;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .project-card {
+    height: 28rem !important;
   }
 }
 
@@ -153,6 +165,9 @@
   }
   .facts-container h2 {
     font-size: 2rem !important;
+  }
+  .project-card {
+    height: fit-content !important;
   }
 }
 

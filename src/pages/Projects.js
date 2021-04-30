@@ -4,6 +4,7 @@ import ProjectCard from '../components/ProjectCard';
 import GearClosetPhoto from '../assets/proj-5.PNG';
 import SingletrackPhoto from '../assets/proj-4.PNG';
 import MySummitsPhoto from '../assets/proj-3.PNG';
+import DiversifyPhoto from '../assets/proj-6.jpg';
 
 export default function Projects() {
 
@@ -24,6 +25,13 @@ export default function Projects() {
         },
         {
             id: 3,
+            title: "Diversify",
+            screenshot: DiversifyPhoto,
+            github: "https://github.com/ThatoneKurdishSE/Diversify-FE",
+            description: "A chat community for underrepresented groups using Rails, React and Tailwind, built during a collaborative hackathon."
+        },
+        {
+            id: 4,
             title: "mySummits",
             screenshot: MySummitsPhoto,
             github: "https://github.com/gjeffgolden/14ers-tracker-frontend",

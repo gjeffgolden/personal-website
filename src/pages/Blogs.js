@@ -9,25 +9,30 @@ export default function Blogs() {
             id: 1,
             headline: "Forking My Life",
             teaser: 'Why transition from a successful digital marketing career to coding?',
-            wordpress: "https://gjeffgolden.medium.com/forking-my-life-49c97583c9ca"
+            medium: "https://gjeffgolden.medium.com/forking-my-life-49c97583c9ca"
         },
         {
             id: 2,
             headline: "A Beginner's Guide to JavaScript Event Delegation",
             teaser: 'Stop! Propagate, and listen.',
-            wordpress: "https://gjeffgolden.medium.com/a-beginners-guide-to-javascript-event-delegation-85545d943a23"
+            medium: "https://gjeffgolden.medium.com/a-beginners-guide-to-javascript-event-delegation-85545d943a23"
         },
         {
             id: 3,
             headline: "Refactoring a Class Component to a Functional Component",
             teaser: 'Sink your hooks into this one.',
-            wordpress: "https://gjeffgolden.medium.com/refactoring-a-class-component-to-a-functional-component-with-hooks-f279e109f630"
+            medium: "https://gjeffgolden.medium.com/refactoring-a-class-component-to-a-functional-component-with-hooks-f279e109f630"
         },
         {
             id: 4,
             headline: "Controlled Forms in React",
             teaser: 'Understanding how component state and form inputs interact.',
-            wordpress: "https://gjeffgolden.medium.com/controlled-forms-in-react-e1d977d39fba"
+            medium: "https://gjeffgolden.medium.com/controlled-forms-in-react-e1d977d39fba"
+        },
+        {
+            id: 5,
+            headline: "Responsive Web Design Fundamentals",
+            medium: "https://gjeffgolden.medium.com/responsive-design-fundamentals-1fc669636df7"
         }
     ]
 
@@ -37,7 +42,7 @@ export default function Blogs() {
                 key={blog.id} 
                 headline={blog.headline} 
                 teaser={blog.teaser} 
-                wordpress={blog.wordpress}  
+                wordpress={blog.medium}  
             /> 
         )
     }
