@@ -10,6 +10,7 @@
 
 .blog-card:hover {
   border: 1px black solid;
+  cursor: pointer;
 }
 
 .nav-link:hover {
