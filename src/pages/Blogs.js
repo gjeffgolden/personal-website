@@ -34,6 +34,12 @@ export default function Blogs() {
             headline: "Responsive Web Design Fundamentals",
             teaser: "An introduction to rems, ems and media queries.",
             medium: "https://gjeffgolden.medium.com/responsive-design-fundamentals-1fc669636df7"
+        },
+        {
+            id: 6,
+            headline: "JSX and the Virtual DOM: Under the Hood",
+            teaser: "A deeper dive into how the React magic happens.",
+            medium: "https://gjeffgolden.medium.com/jsx-and-the-virtual-dom-a-peek-under-the-hood-9a5cd931a0e6"
         }
     ]
 
