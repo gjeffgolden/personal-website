@@ -5,16 +5,16 @@ import MediumLogo from '../assets/icons/medium-logo.png';
 export default function BlogCard({ headline, teaser, medium }) {
 
     return (
-            <Link underline="none" href={medium} target="_blank" style={{display: 'flex', flexFlow: 'column', alignItems: "center", width: "60%"}}>
+            <Link underline="none" href={medium} target="_blank" style={{display: 'flex', flexFlow: 'column', alignItems: "center", width: "18.75rem"}}>
                 <Card 
                     className="blog-card"  
-                    style={{display: "flex", height: 'fit-content', width: "100%", backgroundColor: "rgb(255, 255, 255)", minWidth: "42rem", margin: '0.5rem'}}
+                    style={{display: "flex", flexWrap: "wrap", height: '18.75rem', width: "18.75rem", backgroundColor: "rgb(255, 255, 255)", margin: "0.5rem"}}
                 >
-                    <CardContent style={{display: "flex", flexFlow: "row", width: "100%", alignItems: "center"}}>
-                        <img src={MediumLogo} alt="Medium.com Logo" style={{width: "3rem"}} />
-                        <Container className="blog-details" style={{textAlign: 'left'}}>
+                    <CardContent style={{display: "flex", flexFlow: "column", width: "100%", alignItems: "center", justifyContent: "space-around"}}>
+                        <img src={MediumLogo} alt="Medium.com Logo" style={{width: "5rem"}} />
+                        <Container className="blog-details" style={{textAlign: 'center', padding: '0', margin: '0'}}>
                             <Typography variant="h6">{headline}</Typography>
-                            <Typography variant="body1">{teaser}</Typography>
+                            <Typography variant="body1" style={{paddingTop: '1rem'}}>{teaser}</Typography>
                         </Container>
                     </CardContent>
                 </Card>

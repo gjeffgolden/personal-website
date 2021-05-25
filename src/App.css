@@ -149,7 +149,7 @@
     display: none;
   }
   .blog-container {
-    margin-top: 1rem !important;
+    margin-top: 0.5rem !important;
   }
   .blog-card {
     height: fit-content !important;

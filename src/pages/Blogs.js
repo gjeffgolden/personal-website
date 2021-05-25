@@ -25,8 +25,8 @@ export default function Blogs() {
         },
         {
             id: 4,
-            headline: "Controlled Forms in React",
-            teaser: 'Understanding how component state and form inputs interact.',
+            headline: "Understanding Controlled Forms in React",
+            teaser: "An overview of how component state and form inputs interact.",
             medium: "https://gjeffgolden.medium.com/controlled-forms-in-react-e1d977d39fba"
         },
         {
@@ -40,7 +40,13 @@ export default function Blogs() {
             headline: "JSX and the Virtual DOM: Under the Hood",
             teaser: "A deeper dive into how the React magic happens.",
             medium: "https://gjeffgolden.medium.com/jsx-and-the-virtual-dom-a-peek-under-the-hood-9a5cd931a0e6"
-        }
+        },
+        {
+            id: 7,
+            headline: "A Simple Guide to Server-Side Rendering vs. Client-Side Rendering",
+            teaser: "Which is best for your web app?",
+            medium: "https://gjeffgolden.medium.com/a-simple-breakdown-of-client-side-rendering-vs-server-side-rendering-75e764c98965"
+        },
     ]
 
     const displayBlogs = () => {
@@ -60,10 +66,10 @@ export default function Blogs() {
             className="blog-container"
             style={{
                 height: "fit-content", 
-                width: "70%", 
+                width: '70%', 
                 marginTop: '3rem', 
                 display: 'flex', 
-                flexFlow: 'column', 
+                flexFlow: 'row wrap', 
                 justifyContent: 'space-around', 
                 alignItems: 'center', 
                 borderRadius: '6px',
